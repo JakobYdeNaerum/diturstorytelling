@@ -84,11 +84,11 @@ document.addEventListener('scroll', function () {
         }
     }
 
-    if (visibleSection) {
+    if (visibleSection && window.scrollY > 600) {
         nav.style.display = 'block';
-    } else {
+      } else {
         nav.style.display = 'none';
-    }
+      }
 });
 
 
