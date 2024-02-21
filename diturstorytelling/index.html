@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Poller One-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Kanit&family=Oxygen:wght@300;400;700&family=Poller+One&display=swap"
+        rel="stylesheet">
+    <!--Yeseva One-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Kanit&family=Oxygen:wght@300;400;700&family=Poller+One&family=Yeseva+One&display=swap"
+        rel="stylesheet">
+    <!--Inter-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Inter:wght@500&family=Kanit&family=Oxygen:wght@300;400;700&family=Poller+One&family=Yeseva+One&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Inter:wght@300;500&family=Kanit&family=Oxygen:wght@300;400;700&family=Poller+One&family=Yeseva+One&display=swap"
+        rel="stylesheet">
+    <title>Velkommen til Dissings ur univers</title>
+</head>
+
+<body>
+
+    <header>
+        <img id="logostart" src="images/logohvid.png" alt="Hvidt DitUr Logo">
+    </header>
+    <main>
+        <div id="produktsection">
+            <video controls preload="auto">
+                <source src="video/Watch Collection.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <section class="tidslinje">
+            <img class="midt" src="images/dissinghvid.png" alt="Dissing Wathces Logo">
+            <p class="midt">Dissing Watches blev grundlagt i 2018 af 2 urentusiaster, Mikkel og Kasper. <br> Dissing
+                bliver designet i Danmark og har stort fokus på det elegante og klassiske look. <br> Tanken bag Dissing
+                watches er, at man får et ur, der ligner en million, men ikke koster en million.</p>
+        </section>
+
+
+        <div id="upper-nav">
+            <ul class="navigation">
+
+                <a href=#section1>
+                    <li id="watch1" class="light-menu">DATE</li>
+                </a>
+
+                <a href=#section2>
+                    <li id="watch2" class="light-menu">DIVER</li>
+                </a>
+                <a href=#section3>
+                    <li id="watch3" class="light-menu">MASTER</li>
+                </a>
+                <a href=#section4>
+                    <li id="watch4" class="light-menu">MONTARO</li>
+                </a>
+                <a href=#section5>
+                    <li id="watch5" class="light-menu">MK10</li>
+                </a>
+                <a href=#section6>
+                    <li id="watch6" class="light-menu">CHRONO</li>
+                </a>
+                <a href=#section7>
+                    <li id="watch7" class="light-menu">MOMENTO</li>
+                </a>
+                <a href=#section8>
+                    <li id="watch8" class="light-menu"> OCEAN </li>
+                </a>
+            </ul>
+        </div>
+        <!--Date uret-->
+        <div class="menu-container">
+            <div id="menu1" class="closed">
+                <div class="close-button" onclick="toggleMenu1()"></div>
+                <div class="specifikationer">
+
+                    <h1>Specifikationer</h1>
+
+                    <h2>Urværk</h2>
+
+                    <div class="info">
+                        <h3>Type ur</h3>
+                        <p>Analog</p>
+                    </div>
+                    <div class="info">
+                        <h3>Urværk</h3>
+                        <p>Kvarts</p>
+                    </div>
+                    <div class="info">
+                        <h3>Kaliber</h3>
+                        <p>Miyota 2315</p>
+                    </div>
+                    <h2>Design</h2>
+                    <div class="info">
+                        <h3>Urkasse Materiale</h3>
+                        <p>316L Kirurgisk Stål</p>
+                    </div>
+
+                    <h2>Størrelse</h2>
+                    <div class="info">
+                        <h3>Diameter</h3>
+                        <p>41 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Tykkelse</h3>
+                        <p>10 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Rembredde</h3>
+                        <p>22 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Vægt</h3>
+                        <p>150 g.</p>
+                    </div>
+                    <h2>Egenskaber</h2>
+                    <div class="info">
+                        <h3>Vandbeskyttelse</h3>
+                        <p>10 ATM / 100 m.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Glas</h3>
+                        <p>Safirglas</p>
+                    </div>
+                    <div class="info">
+                        <h3>Funktioner</h3>
+                        <p>Datovisning</p>
+                    </div>
+                    <div id="knap">
+                        <a href="https://www.ditur.dk/brands/dissing/date" class="custom-button">Udforsk ur-serien
+                            her</a>
+                    </div>
+                </div>
+            </div>
+            <div id="toggle-button" onclick="toggleMenu1()">
+                <!--Tekst-->
+                <section class="slide" id="section1" data-slide="2">
+                    <div class="year">
+                        <div class="model-name">DATE</div>
+                        <div class="describtion">
+                            Dissing Date er kendetegnet ved sin riflet urkrans og datovisning i urskiven. <br>Det er et
+                            klassisk
+                            herreur
+                            produceret i kvalitetsmaterialer.
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div id="toggle-button" onclick="toggleMenu1()">
+
+                <div id="overlay1"></div>
+            </div>
+        </div>
+        <a class="button" data-slide="3" title=""></a>
+        <!--Diver uret-->
+        <div id="menu-container">
+            <div id="menu2" class="closed">
+                <div class="close-button" onclick="toggleMenu2()"></div>
+                <div class="specifikationer">
+
+                    <h1>Specifikationer</h1>
+
+                    <h2>Urværk</h2>
+
+                    <div class="info">
+                        <h3>Type ur</h3>
+                        <p>Analog</p>
+                    </div>
+                    <div class="info">
+                        <h3>Urværk</h3>
+                        <p>Kvarts</p>
+                    </div>
+                    <div class="info">
+                        <h3>Kaliber</h3>
+                        <p>Miyota 2315</p>
+                    </div>
+                    <h2>Design</h2>
+                    <div class="info">
+                        <h3>Urkasse Materiale</h3>
+                        <p>316L Kirurgisk Stål</p>
+                    </div>
+
+                    <h2>Størrelse</h2>
+                    <div class="info">
+                        <h3>Diameter</h3>
+                        <p>43 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Tykkelse</h3>
+                        <p>10 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Rembredde</h3>
+                        <p>22 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Vægt</h3>
+                        <p>200 g.</p>
+                    </div>
+                    <h2>Egenskaber</h2>
+                    <div class="info">
+                        <h3>Vandbeskyttelse</h3>
+                        <p>20 ATM / 200 m.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Glas</h3>
+                        <p>Safirglas</p>
+                    </div>
+                    <div class="info">
+                        <h3>Funktioner</h3>
+                        <p>Datovisning, Skruekrone</p>
+                    </div>
+                    <div id="knap">
+                        <a href="https://www.ditur.dk/brands/dissing/diver?utm_source=bing&utm_medium=cpc&utm_campaign=4.7%3A%20M%C3%A6rke%20%7C%20Own%20brands"
+                            class="custom-button">Udforsk ur-serien her</a>
+                    </div>
+                </div>
+            </div>
+            <div id="toggle-button" onclick="toggleMenu2()">
+                <!--Tekst-->
+                <section class="slide" id="section2" data-slide="2">
+                    <div class="year">
+                        <div class="model-name">DIVER</div>
+                        <div class="describtion">
+                            Denne serie er den nyeste fra Dissing brandet, <br>uret er et elegant ur i stål med en sort
+                            urskive
+                            der
+                            efterlader et minimalistisk indtryk.
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div id="toggle-button" onclick="toggleMenu2()">
+
+                <div id="overlay2"></div>
+            </div>
+        </div>
+        <a class="button" data-slide="3" title=""></a>
+        <!--Master uret-->
+        <div id="menu-container">
+            <div id="menu3" class="closed">
+                <div class="close-button" onclick="toggleMenu3()"></div>
+                <div class="specifikationer">
+
+                    <h1>Specifikationer</h1>
+
+                    <h2>Urværk</h2>
+
+                    <div class="info">
+                        <h3>Type ur</h3>
+                        <p>Analog</p>
+                    </div>
+                    <div class="info">
+                        <h3>Urværk</h3>
+                        <p>Kvarts</p>
+                    </div>
+                    <div class="info">
+                        <h3>Garanti</h3>
+                        <p>2 år</p>
+                    </div>
+                    <h2>Design</h2>
+                    <div class="info">
+                        <h3>Urkasse Materiale</h3>
+                        <p>Rustfrit Stål</p>
+                    </div>
+
+                    <h2>Størrelse</h2>
+                    <div class="info">
+                        <h3>Diameter</h3>
+                        <p>44 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Tykkelse</h3>
+                        <p>10 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Rembredde</h3>
+                        <p>22 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Vægt</h3>
+                        <p>164 g.</p>
+                    </div>
+                    <h2>Egenskaber</h2>
+                    <div class="info">
+                        <h3>Vandbeskyttelse</h3>
+                        <p>10 ATM / 100 m.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Glas</h3>
+                        <p>Safirbelagt Mineralglas</p>
+                    </div>
+                    <div class="info">
+                        <h3>Funktioner</h3>
+                        <p>Datovisning, Kronografer, Tachymeter</p>
+                    </div>
+                    <div id="knap">
+                        <a href="https://www.ditur.dk/brands/dissing/master" class="custom-button">Udforsk ur-serien
+                            her</a>
+                    </div>
+                </div>
+            </div>
+            <div id="toggle-button" onclick="toggleMenu3()">
+                <!--Tekst-->
+                <section class="slide" id="section3" data-slide="2">
+                    <div class="year">
+                        <div class="model-name">MASTER</div>
+                        <div class="describtion">
+                            Dissing master er et ur, der kombinerer flot design og høj kvalitet. <br> Uret er med
+                            tachymeter,
+                            tre
+                            kronografer og datovisning i urskiven
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div id="toggle-button" onclick="toggleMenu3()">
+
+                <div id="overlay3"></div>
+            </div>
+        </div>
+        <a class="button" data-slide="3" title=""></a>
+        <!--Montaro uret-->
+        <div id="menu-container">
+            <div id="menu4" class="closed">
+                <div class="close-button" onclick="toggleMenu4()"></div>
+                <div class="specifikationer">
+
+                    <h1>Specifikationer</h1>
+
+                    <h2>Urværk</h2>
+
+                    <div class="info">
+                        <h3>Type ur</h3>
+                        <p>Analog</p>
+                    </div>
+                    <div class="info">
+                        <h3>Urværk</h3>
+                        <p>Kvarts</p>
+                    </div>
+                    <div class="info">
+                        <h3>Garanti</h3>
+                        <p>2 år</p>
+                    </div>
+                    <h2>Design</h2>
+                    <div class="info">
+                        <h3>Urkasse Materiale</h3>
+                        <p>Rustfrit Stål</p>
+                    </div>
+
+                    <h2>Størrelse</h2>
+                    <div class="info">
+                        <h3>Diameter</h3>
+                        <p>41 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Tykkelse</h3>
+                        <p>10 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Rembredde</h3>
+                        <p>22 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Vægt</h3>
+                        <p>187 g.</p>
+                    </div>
+                    <h2>Egenskaber</h2>
+                    <div class="info">
+                        <h3>Vandbeskyttelse</h3>
+                        <p>10 ATM / 100 m.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Glas</h3>
+                        <p>Safirbelagt Mineralglas</p>
+                    </div>
+                    <div class="info">
+                        <h3>Funktioner</h3>
+                        <p>Kronografer, Datovisning</p>
+                    </div>
+                    <div id="knap">
+                        <a href="https://www.ditur.dk/brands/dissing/montaro" class="custom-button">Udforsk ur-serien
+                            her</a>
+                    </div>
+                </div>
+            </div>
+            <div id="toggle-button" onclick="toggleMenu4()">
+                <!--Tekst-->
+                <section class="slide" id="section4" data-slide="2">
+                    <div class="year">
+                        <div class="model-name">MONTARO</div>
+                        <div class="describtion">
+                            Dette ur fra Dissing kombinerer det klassiske ur med et twist af det sporty. <br>Uret er
+                            designet
+                            til at
+                            være behageligt for brugeren samtidig med at man kan udøve fysiske aktiviteter.
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div id="toggle-button" onclick="toggleMenu4()">
+
+                <div id="overlay4"></div>
+            </div>
+        </div>
+        <a class="button" data-slide="3" title=""></a>
+        <!--MK10 uret-->
+        <div id="menu-container">
+            <div id="menu5" class="closed">
+                <div class="close-button" onclick="toggleMenu5()"></div>
+                <div class="specifikationer">
+
+                    <h1>Specifikationer</h1>
+
+                    <h2>Urværk</h2>
+
+                    <div class="info">
+                        <h3>Type ur</h3>
+                        <p>Analog</p>
+                    </div>
+                    <div class="info">
+                        <h3>Urværk</h3>
+                        <p>Kvarts</p>
+                    </div>
+                    <div class="info">
+                        <h3>Garanti</h3>
+                        <p>2 år</p>
+                    </div>
+                    <h2>Design</h2>
+                    <div class="info">
+                        <h3>Urkasse Materiale</h3>
+                        <p>Rustfrit stål</p>
+                    </div>
+
+                    <h2>Størrelse</h2>
+                    <div class="info">
+                        <h3>Diameter</h3>
+                        <p>42 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Tykkelse</h3>
+                        <p>10 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Rembredde</h3>
+                        <p>20 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Vægt</h3>
+                        <p>150 g.</p>
+                    </div>
+                    <h2>Egenskaber</h2>
+                    <div class="info">
+                        <h3>Vandbeskyttelse</h3>
+                        <p>10 ATM / 100 m.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Glas</h3>
+                        <p>Safirglas</p>
+                    </div>
+                    <div class="info">
+                        <h3>Funktioner</h3>
+                        <p>Kronografer</p>
+                    </div>
+                    <div id="knap">
+                        <a href="https://www.ditur.dk/brands/dissing/mk10" class="custom-button">Udforsk ur-serien
+                            her</a>
+                    </div>
+                </div>
+            </div>
+            <div id="toggle-button" onclick="toggleMenu5()">
+                <!--Tekst-->
+                <section class="slide" id="section5" data-slide="2">
+                    <div class="year">
+                        <div class="model-name">MK 10</div>
+                        <div class="describtion">
+                            MK10 er et kvalitets ur, det er en del af en række ure af en serie der hedder MK. <br>Uret
+                            er en
+                            kirkantet urkasse, som giver designet et ekstra touch.
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div id="toggle-button" onclick="toggleMenu5()">
+
+                <div id="overlay5"></div>
+            </div>
+        </div>
+        <a class="button" data-slide="3" title=""></a>
+        <!--Chrono uret-->
+        <div id="menu-container">
+            <div id="menu6" class="closed">
+                <div class="close-button" onclick="toggleMenu6()"></div>
+                <div class="specifikationer">
+
+                    <h1>Specifikationer</h1>
+
+                    <h2>Urværk</h2>
+
+                    <div class="info">
+                        <h3>Type ur</h3>
+                        <p>Analog</p>
+                    </div>
+                    <div class="info">
+                        <h3>Urværk</h3>
+                        <p>Kvarts</p>
+                    </div>
+                    <div class="info">
+                        <h3>Garanti</h3>
+                        <p>2 år</p>
+                    </div>
+                    <h2>Design</h2>
+                    <div class="info">
+                        <h3>Urkasse Materiale</h3>
+                        <p>Rustfrit Stål</p>
+                    </div>
+
+                    <h2>Størrelse</h2>
+                    <div class="info">
+                        <h3>Diameter</h3>
+                        <p>44 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Tykkelse</h3>
+                        <p>15 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Rembredde</h3>
+                        <p>22 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Vægt</h3>
+                        <p>163 g.</p>
+                    </div>
+                    <h2>Egenskaber</h2>
+                    <div class="info">
+                        <h3>Vandbeskyttelse</h3>
+                        <p>5 ATM / 50 m.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Glas</h3>
+                        <p>Safirbelagt mineralglas</p>
+                    </div>
+                    <div class="info">
+                        <h3>Funktioner</h3>
+                        <p>Datovisning, Kronografer, Stopur, Tachymeter</p>
+                    </div>
+                    <div id="knap">
+                        <a href="https://www.ditur.dk/brands/dissing/chrono" class="custom-button">Udforsk ur-serien
+                            her</a>
+                    </div>
+                </div>
+            </div>
+            <div id="toggle-button" onclick="toggleMenu6()">
+                <!--Tekst-->
+                <section class="slide" id="section6" data-slide="2">
+                    <div class="year">
+                        <div class="model-name">CHRONO</div>
+                        <div class="describtion">
+                            Dissing Chrono serien er kendt for sit design med tre kronografer og dens høje kvalitet.
+                            <br>Herreuret
+                            har et moderne og stilsikkert design.
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div id="toggle-button" onclick="toggleMenu6()">
+                <div id="overlay6"></div>
+            </div>
+        </div>
+        <a class="button" data-slide="3" title=""></a>
+        <!--MOMENTO uret-->
+        <div id="menu-container">
+            <div id="menu7" class="closed">
+                <div class="close-button" onclick="toggleMenu7()"></div>
+                <div class="specifikationer">
+
+                    <h1>Specifikationer</h1>
+
+                    <h2>Urværk</h2>
+
+                    <div class="info">
+                        <h3>Type ur</h3>
+                        <p>Analog</p>
+                    </div>
+                    <div class="info">
+                        <h3>Urværk</h3>
+                        <p>Kvarts</p>
+                    </div>
+                    <div class="info">
+                        <h3>Garanti</h3>
+                        <p>2 år</p>
+                    </div>
+                    <h2>Design</h2>
+                    <div class="info">
+                        <h3>Urkasse Materiale</h3>
+                        <p>Rustfrit Stål</p>
+                    </div>
+
+                    <h2>Størrelse</h2>
+                    <div class="info">
+                        <h3>Diameter</h3>
+                        <p>42 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Tykkelse</h3>
+                        <p>10 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Rembredde</h3>
+                        <p>22 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Vægt</h3>
+                        <p>150 g.</p>
+                    </div>
+                    <h2>Egenskaber</h2>
+                    <div class="info">
+                        <h3>Vandbeskyttelse</h3>
+                        <p>10 ATM / 100 m.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Glas</h3>
+                        <p>Safirbelagt Mineralglas</p>
+                    </div>
+                    <div class="info">
+                        <h3>Funktioner</h3>
+                        <p>Kronografer</p>
+                    </div>
+                    <div id="knap">
+                        <a href="https://www.ditur.dk/brands/dissing/momento" class="custom-button">Udforsk ur-serien
+                            her</a>
+                    </div>
+                </div>
+            </div>
+            <div id="toggle-button" onclick="toggleMenu7()">
+                <!--Tekst-->
+                <section class="slide" id="section7" data-slide="2">
+                    <div class="year">
+                        <div class="model-name">MOMENTO</div>
+                        <div class="describtion">
+                            “Momento” er et ur inspireret fra sportens verden. <br>Ønsker du dig et ur der skaber
+                            associationer
+                            til sportens verden <br> hvor der er fokus på kvalitet og design, så er dette ur for dig!
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div id="toggle-button" onclick="toggleMenu7()">
+
+                <div id="overlay7"></div>
+            </div>
+        </div>
+        <a class="button" data-slide="3" title=""></a>
+        <!--OCEAN uret-->
+        <div id="menu-container">
+            <div id="menu8" class="closed">
+                <div class="close-button" onclick="toggleMenu8()"></div>
+                <div class="specifikationer">
+
+                    <h1>Specifikationer</h1>
+
+                    <h2>Urværk</h2>
+
+                    <div class="info">
+                        <h3>Type ur</h3>
+                        <p>Analog</p>
+                    </div>
+                    <div class="info">
+                        <h3>Urværk</h3>
+                        <p>Kvarts</p>
+                    </div>
+                    <div class="info">
+                        <h3>Kaliber</h3>
+                        <p>Ronda 515</p>
+                    </div>
+                    <h2>Design</h2>
+                    <div class="info">
+                        <h3>Urkasse Materiale</h3>
+                        <p>316L Kirurgisk Stål</p>
+                    </div>
+
+                    <h2>Størrelse</h2>
+                    <div class="info">
+                        <h3>Diameter</h3>
+                        <p>45 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Tykkelse</h3>
+                        <p>10 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Rembredde</h3>
+                        <p>22 mm.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Vægt</h3>
+                        <p>150 g.</p>
+                    </div>
+                    <h2>Egenskaber</h2>
+                    <div class="info">
+                        <h3>Vandbeskyttelse</h3>
+                        <p>20 ATM / 200 m.</p>
+                    </div>
+                    <div class="info">
+                        <h3>Glas</h3>
+                        <p>Safirglas</p>
+                    </div>
+                    <div class="info">
+                        <h3>Funktioner</h3>
+                        <p>Datovisning, Skruekrone</p>
+                    </div>
+                    <div id="knap">
+                        <a href="https://www.ditur.dk/brands/dissing/ocean" class="custom-button">Udforsk ur-serien
+                            her</a>
+                    </div>
+                </div>
+            </div>
+            <div id="toggle-button" onclick="toggleMenu8()">
+                <!--Tekst-->
+                <section class="slide" id="section8" data-slide="2">
+                    <div class="year">
+                        <div class="model-name">OCEAN</div>
+                        <div class="describtion">
+                            Dissing Ocean er en dykkerurserie i højeste kvalitet,<br> der er produceret i samarbejde med
+                            ReSea,
+                            der
+                            for hvert ur solgt fjerner 10 plastikflasker fra hav og flod.
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div id="toggle-button" onclick="toggleMenu8()">
+
+                <div id="overlay8"></div>
+            </div>
+        </div>
+        <a class="button" data-slide="3" title=""></a>
+
+        <section class="tidslinje">
+            <h1 class="midt">Ditur ifølge Mikkel</h1>
+            <section class="tokoloner">
+                <img class="borderimg" src="images/mikkelfraditur.png" alt="Mikkel Fra Ditur">
+                <section>
+                    <h2>Mikkel Dissing, <br> CEO og CO-founder, Ditur</h2>
+                    <p class="citat"><i>“Med et ur fra Dissing Watches får du et ur, der ligner en million, men ikke
+                            koster en million.”</i></p>
+                    <a href="#videosectionscroll">
+                        <button id="fremvideo">Klik her for at se interviewet</button>
+                    </a>
+                </section>
+            </section>
+        </section>
+        <div id="videosectionscroll">
+            <div style="padding:56.25% 0 0 0;position:relative;">
+                <iframe id="interview"
+                    src="https://player.vimeo.com/video/884741358?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
+                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                    style="position:absolute;top:0;left:5%;width:90%;height:90%;" title="interviewmikkel">
+                </iframe>
+            </div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+
+        </div>
+        <div class="videosection">
+            <img class="midt" src="motiongrapic.gif" alt="motion graphic over fordelene ved dissing urer">
+        </div>
+    </main>
+    <footer>
+        <div class="footeraddon">
+            <div class="række">
+                <a href="https://www.facebook.com/DiturDenmark?locale=da_DK"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/ditur_official/"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@diturofficial"><i class="fa fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/company/ditur/"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+            <div class="række">
+                <ul>
+                    <li><a href="https://www.ditur.dk/">Ditur</a></li>
+                    <li><a href="#videosectionscroll">Interview</a></li>
+                    <li><a href="#">Cvr. 12 34 56 78</a></li>
+                    <li><a href="#produktsection">Produkt video</a></li>
+                </ul>
+            </div>
+
+            <h4 id="footerh4">
+                MJMJ Copyright © 2023 MJMJ - All rights reserved
+            </h4>
+
+        </div>
+    </footer>
+</body>
+
+</html>
